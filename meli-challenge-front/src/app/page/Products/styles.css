@@ -1,0 +1,20 @@
+.li-container {
+    border-bottom: thin solid #eee;
+}
+.img-item {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.div-description-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+.div-description-price {
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+}

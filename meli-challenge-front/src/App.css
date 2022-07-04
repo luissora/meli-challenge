@@ -1,0 +1,63 @@
+body, html {
+  background-color: #eee;
+  /* height: 100vh; */
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+img{
+  margin: 0;
+  padding: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.ms-32 {
+  margin-left: 32px;
+}
+
+.me-32 {
+  margin-right: 32px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+.p-16 {
+  padding: 16px;
+}
+
+.m-16 {
+  margin: 16px;
+}
