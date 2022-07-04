@@ -1,0 +1,27 @@
+{
+  "name": "meli-challenge",
+  "version": "1.0.0",
+  "description": "Challange MeLi",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others --kill-others-on-fail -p name --names \"front,api\" \"npm run start:dev:fe\" \"npm run start:dev:api\"",
+    "start:dev:api": "cd meli-challenge-api && npm run start:dev",
+    "start:dev:fe": "cd meli-challenge-front && npm run start:dev",
+    "install:api": "cd meli-challenge-api && npm i",
+    "install:fe": "cd meli-challenge-front && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luissora/meli-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luissora/meli-challenge/issues"
+  },
+  "homepage": "https://github.com/luissora/meli-challenge#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
