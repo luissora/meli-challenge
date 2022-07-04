@@ -1,0 +1,25 @@
+.header-container {
+    background-color: #ffe600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.header-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.header-input-search {
+    font-size: 18px;
+}
+    .header-input-search:focus {
+        box-shadow: none;
+    }
+
+.header-btn-search {
+    background-color: #eee;
+    cursor: pointer;
+}
