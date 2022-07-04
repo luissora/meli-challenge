@@ -51,4 +51,4 @@ El sitio estará corriendo en:
 
 ## Autores ✒️
 
-* **Luis Sora** - [Linkedin](https://www.linkedin.com/in/luis-sora/)
+* **Luis Sora** - [Linkedin](https://ar.linkedin.com/in/luis-sora)
